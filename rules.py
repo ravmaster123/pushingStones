@@ -1,0 +1,35 @@
+import time
+import color
+
+def rule():
+        while True:
+          time.sleep(1)
+          print(color.bcolors.OKBLUE + "HOW TO PLAY PUSHING STONES:" )
+          time.sleep(1)
+          print("The game is played on a hexagonal grid. Look at the keys WEDXZA on ur keyboard.")
+          time.sleep(3)
+          print("They're in a hexagon – so smart! Imagine your player is on the key S, and these surrounding keys are all the directions in can move in.")
+          time.sleep(3)
+          print("You will use these keys to navigate your player around. The move inputs are lower-case letters, such as 'w'.")
+          time.sleep(3)
+          print("\nPUSHING STONES is a two player game - two players X and O take turns pushing around their respective x and o stones.")
+          time.sleep(3)
+          print("If you push a line of stones, all stones in the line will be pushed regardless of if they are x or o.")
+          time.sleep(3)
+          print("However, if the enemy player is in the line you are trying to push, you will not be able move that line.")
+          time.sleep(3)
+          print("You also can't push stones, or a line of stones, over the edge of the board.")
+          time.sleep(3)
+          print("To win, push any one of your stones to the other end of the board.")
+          time.sleep(3)
+          print("If all stones are on their respective backrank (i.e. o at the top, x at the bottom), the game is considered a draw as none of the stones are moveable.")
+          time.sleep(3)
+          print("\nThe swap powerup allows you to swap your player's position with any enemy stone.")
+          time.sleep(3)
+          print("The explosion powerup destroys any stone on a given square, knocking back all other stones in a one tile radius (provided there is space for them to move and no player is in the way).")
+          time.sleep(3)
+          print("Be careful though, if used unwisely, one can cause themself to lose a game with powerups!")
+          time.sleep(3)
+          print("Good luck!" + color.bcolors.ENDC)
+          time.sleep(4)
+          break
